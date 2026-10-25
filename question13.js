@@ -5,5 +5,7 @@
     '$match': {
       'tags.2': 'ad'
     }
+  }, {
+    '$count': 'usersWithADAtPos2'
   }
 ]
